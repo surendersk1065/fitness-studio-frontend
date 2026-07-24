@@ -22,7 +22,11 @@ const Signup = () => {
             alert("Registered successfully")
             navigate("/login")
         })
-        .catch(() => console.log("failed to add"))
+        .catch((error) => {
+    console.log("Signup error code:", error.code);
+    console.log("Signup error message:", error.message);
+    setErr(error.message);
+})
     }
   return (
     <div className='my-10'>
