@@ -15,9 +15,9 @@ const Footer = () => {
         <div style={{ backgroundColor: "#2F313C" }}>
             <div  className='flex justify-around items-center lg:p-10 p-1 py-2'>
                 <div className="sec__1 w-[20%]" >
-                    <div className='flex items-center gap-3'>
+                    <div className='flex items-center gap-2 md:gap-3'>
                         <p className='lg:text-6xl text-2xl'><CgGym /></p>
-                        <p className='font-bold text-sm lg:text-2xl'>Fitness Studio</p>
+                        <p className='font-bold text-xs lg:text-2xl'>Fitness Studio</p>
                     </div>
                     <p className='text-sm mt-6 hidden lg:block'>At fitness Studio, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, Medical & lifestyle care hassle-free.#BeBetterEveryDay</p>
 
